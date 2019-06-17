@@ -4,9 +4,10 @@ import './index.css';
 import App from './App';
 import Counterhook from './Counterhooks';
 import Hooks from './Hooks2';
+import CustomHookApp from './CustomHookApp';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Hooks />, document.getElementById('root'));
+ReactDOM.render(<CustomHookApp />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
